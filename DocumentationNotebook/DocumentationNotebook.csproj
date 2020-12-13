@@ -15,20 +15,6 @@
     <PackageReference Include="C4Editor" Version="1.0.0" />
     <PackageReference Include="LinkViewerControl" Version="1.0.0" />
     <PackageReference Include="MarkDownEditorControl" Version="1.0.10" />
-    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.721-prerelease" />
     <PackageReference Include="PropertyEditor" Version="1.0.0" />
   </ItemGroup>
-
-  <ItemGroup>
-    <Content Remove="C:\Users\Brad\.nuget\packages\microsoft.web.webview2\1.0.721-prerelease\build\\..\runtimes\win-arm\native\WebView2Loader.dll" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Remove="C:\Users\Brad\.nuget\packages\microsoft.web.webview2\1.0.721-prerelease\build\\..\runtimes\win-x64\native\WebView2Loader.dll" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Remove="C:\Users\Brad\.nuget\packages\microsoft.web.webview2\1.0.721-prerelease\build\\..\runtimes\win-x86\native\WebView2Loader.dll" />
-  </ItemGroup>
-
 </Project>
