@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="C4Editor" Version="1.0.0" />
+    <PackageReference Include="LinkViewerControl" Version="1.0.0" />
+    <PackageReference Include="MarkDownEditorControl" Version="1.0.10" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.721-prerelease" />
+    <PackageReference Include="PropertyEditor" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
